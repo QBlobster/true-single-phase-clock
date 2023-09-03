@@ -1,0 +1,65 @@
+* "simulator" "HSPICE" 
+* "version" "Q-2020.03 linux64"
+* "format" "HSP"
+* "rundate" "04:37:08 09/04/2023 "
+* "netlist" "TSPC.sp "
+* "runtitle" "**** divider ****"
+* time =    0.            
+* temperature =   27.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ clk =   0.            
++ clko = 9.547e-06       
++ outa = 1.789e-05       
++ outar =   0.4741        
++ outb = 1.905e-05       
++ outbr =   0.4018        
++ outc = 1.698e-05       
++ outcr = 5.094e-02       
++ vdd =   1.0000        
++ vss =   0.            
++ xibuf.out0 =   1.0000        
++ xibuf.out1 = 1.125e-05       
++ xibuf.out2 =   1.0000        
++ xibuf.out3 = 1.125e-05       
++ xibuf.out4 =   1.0000        
++ xibuf.out5 = 1.115e-05       
++ xibuf.out6 =   1.0000        
++ xdffar.s10 =   0.9486        
++ xdffar.s1o =   0.2899        
++ xdffar.s20 =   0.4741        
++ xdffar.s2o =   0.9866        
++ xdffbr.s10 =   0.8764        
++ xdffbr.s1o =   0.4287        
++ xdffbr.s20 = 8.510e-02       
++ xdffbr.s2o =   0.5400        
++ xdffbr.s2s = 3.936e-02       
++ xdffcr.s10 =   0.9999        
++ xdffcr.s1o =   0.9998        
++ xdffcr.s20 = 4.311e-02       
++ xdffcr.s2o =   0.6939        
++ xdffcr.s2s =   0.4722        
++ xobufa.out0 =   0.5338        
++ xobufa.out01 =   0.2810        
++ xobufa.out02 =   0.9864        
++ xobufa.out03 = 1.978e-05       
++ xobufa.out1 =   1.0000        
++ xobufa.out2 = 1.145e-05       
++ xobufa.out23 =   1.0000        
++ xobufa.out24 = 1.132e-05       
++ xobufa.out41 =   1.0000        
++ xobufb.out0 =   0.8890        
++ xobufb.out01 = 2.715e-04       
++ xobufb.out1 =   1.0000        
++ xobufb.out2 = 1.132e-05       
++ xobufb.out23 =   1.0000        
++ xobufb.out24 = 1.678e-05       
++ xobufb.out41 =   1.0000        
++ xobufc.out0 =   0.9999        
++ xobufc.out01 = 1.679e-05       
++ xobufc.out1 =   1.0000        
++ xobufc.out2 = 1.132e-05       
++ xobufc.out23 =   1.0000        
+***   END: Saved Operating Point ***                     

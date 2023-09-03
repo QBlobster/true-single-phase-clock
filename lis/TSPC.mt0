@@ -1,0 +1,37 @@
+$DATA1 SOURCE='HSPICE' VERSION='Q-2020.03 linux64' PARAM_COUNT=0
+$OPTION MEASFORM=2
+.TITLE '**** divider ****'
+clkt =  4.119e-11
+clkpw =  1.891e-11
+power =  7.436e-03
+tftoa =  7.965e-11
+tra =  1.946e-11
+tfa =  1.889e-11
+pwa =  4.034e-11
+pwba =  3.930e-11
+trpa =    0.2443
+tfpa =    0.2371
+duty_cycleoa =    0.5065
+duty_cycleboa =    0.4935
+duty_cycleclk =    0.4590
+tftob =  1.606e-10
+trb =  3.568e-11
+tfb =  4.024e-11
+pwb =  8.086e-11
+pwbb =  7.973e-11
+trpb =    0.2221
+tfpb =    0.2505
+duty_cycleob =    0.5035
+duty_cyclebob =    0.4965
+tftoc =  3.200e-10
+trc =  7.299e-11
+tfc =  7.751e-11
+pwc =  1.613e-10
+pwbc =  1.587e-10
+trpc =    0.2281
+tfpc =    0.2422
+duty_cycleoc =    0.5040
+duty_cycleboc =    0.4960
+temper =   27.0000
+alter# = 1
+
