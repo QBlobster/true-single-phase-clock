@@ -45,7 +45,7 @@ hspice -i TSPC.sp -o ./lis/TSPC.lis
 The waveform result will be stored in the `./lis/TSPC.tr0`. You can use `wv` to view the waveform."
 
 | | outA | outB | outC |
-| :-----: | | :-----: | :----: | :----: |
+| :-----: | :-----: | :----: | :----: |
 | Rise Time | 1.946×10<sup>-11</sup> | 3.633×10<sup>-11</sup> | 7.229×10<sup>-11</sup> |
 | Fall Time | 1.889×10<sup>-11</sup> | 4.010×10<sup>-11</sup> | 7.751×10<sup>-11</sup> |
 | Rise Time/Cycle | 0.2443 | 0.2262 | 0.2281 |
