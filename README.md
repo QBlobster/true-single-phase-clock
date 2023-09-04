@@ -5,6 +5,7 @@
 
 This program is operated by HSPICE using [90nm PTM](http://rfic.eecs.berkeley.edu/~niknejad/ee242/pdf/90nm_bulk.pm) technology at 1V power supply. It combines various members of the CMOS TSPC logic gates family, achieving a maximum operating frequency of 25GHz with a power consumption of 7.432mW.
 
+**Single-Phase Clock (TSPC)**
 ![image](https://github.com/QBlobster/true-single-phase-clock/blob/main/TSPC.png)
 
 For the first DFF, I enhanced its operating speed by using ratioed logic structures (𝑃𝐶 − 𝑃𝑁 − 𝑁𝐶) and sizing the second stage with a high ratio to minimize propagation delay. The width of the first and third stages will be determined based on the size of the 𝑃𝑁 logic. For the others, I used ratio-less logic (𝑃𝐶 − 𝐶𝑁 − 𝑁𝐶) to reduce power dissipation, and it offers the same robustness as the CC type.
