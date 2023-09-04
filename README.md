@@ -31,7 +31,7 @@ git clone git@github.com:QBlobster/true-single-phase-clock.git
 ```
 ## Usage
 
-Make sure to start from the `C shell` by `tcsh` and set the environment variable for HSPICE.
+Make sure to start from `C shell` by `tcsh` and set the environment variable for HSPICE.
 
 ```Shell
 # Change to C shell
@@ -50,7 +50,7 @@ Run `hspice` to generate the waveform, measure the rise/fall time and power, and
 hspice -i TSPC.sp -o ./lis/TSPC.lis
 ```
 
-The waveform result will be stored in the `./lis/TSPC.tr0`. You can use `wv` to view the waveform.
+The waveform result will be stored in `./lis/TSPC.tr0`. You can use `wv` to view the waveform.
 
 | | outA | outB | outC |
 | :-----: | :-----: | :----: | :----: |
