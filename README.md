@@ -45,8 +45,8 @@ You can modify the spice netlist file in `TSPC.sp` to analyze the differnet circ
 
 Run `hspice` to generate the waveform, measure the rise/fall time and power, and ensure the duty cycle falls within the range of 45% to 55%:
 
-```hspice
-# Sumulate TSPC
+```Shell
+# Simulate TSPC
 hspice -i TSPC.sp -o ./lis/TSPC.lis
 ```
 
