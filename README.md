@@ -68,6 +68,7 @@ cd lis
 cat TSPC.mt0
 
     #TSPC.mt0
+    ...
     clkt =  4.119e-11
     clkpw =  1.891e-11
     power =  7.436e-03	#Power
