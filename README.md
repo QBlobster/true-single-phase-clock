@@ -60,6 +60,48 @@ The waveform result will be stored in `./lis/TSPC.tr0`. You can use `wv` to view
 | Rise Time/Cycle | 0.2371 | 0.2497 | 0.2422 |
 | Duty Cycle | 50.65% | 50.00% | 50.40% |
 
+You can find the detailed result in `./lis/TSPC.mt0`.
+
+```Shell
+cd lis
+
+cat TSPC.mt0
+
+    #TSPC.mt0
+    clkt =  4.119e-11
+    clkpw =  1.891e-11
+    power =  7.436e-03	#Power
+    tftoa =  7.965e-11
+    tra =  1.946e-11	#Rise Time of outA
+    tfa =  1.889e-11	#Fall Time of outA
+    pwa =  4.034e-11
+    pwba =  3.930e-11
+    trpa =    0.2443	#Rise Time/Cycle of outA
+    tfpa =    0.2371	#Fall Time/Cycle of outA
+    duty_cycleoa =    0.5065	#Duty Cycle of outA
+    duty_cycleboa =    0.4935
+    duty_cycleclk =    0.4590
+    tftob =  1.606e-10
+    trb =  3.568e-11	#Rise Time of outB
+    tfb =  4.024e-11	#Fall Time of outB
+    pwb =  8.086e-11
+    pwbb =  7.973e-11
+    trpb =    0.2221	#Rise Time/Cycle of outB
+    tfpb =    0.2505	#Fall Time/Cycle of outB
+    duty_cycleob =    0.5035	#Duty Cycle of outB
+    duty_cyclebob =    0.4965
+    tftoc =  3.200e-10
+    trc =  7.299e-11	#Rise Time of outC
+    tfc =  7.751e-11	#Fall Time of outC
+    pwc =  1.613e-10
+    pwbc =  1.587e-10
+    trpc =    0.2281	#Rise Time/Cycle of outC
+    tfpc =    0.2422	#Fall Time/Cycle of outC
+    duty_cycleoc =    0.5040	#Duty Cycle of outC
+    duty_cycleboc =    0.4960
+    temper =   27.0000
+```
+
 ## Contributing
 
 Contributions are always welcome!
